@@ -1,0 +1,95 @@
+.bg-container{
+    height: 100vh;
+    background-size: cover;
+    background-color: #384259;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.card-container{
+    width: 30%;
+
+}
+.heading{
+    color: white;
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 32px;
+    margin-top: 32px;
+    text-align: center;
+}
+@media screen and (max-width:768px){
+    .heading{
+        font-size: 24px;
+        
+    }
+}
+.input-element{
+    outline: none;
+    min-width: 300px;
+    border-style: none;
+    border-radius: 8px;
+    color: #384259;
+    width: 70%;
+    height: 32px;
+    padding-left: 8px;
+}
+@media screen and (max-width:768px){
+    .input-element{
+        min-width: 180px;
+    }
+}
+.button{
+    background-color: #455d7a;
+    min-width: 100px;
+    width: 20%;
+    color: white;
+    border-radius: 8px;
+    border-style: none;
+    height: 32px;
+}
+@media screen and (max-width:768px){
+    .button{
+        min-width: 70px;
+        font-size: 8px;
+    }
+}
+.ul-container{
+    list-style: none;
+    width: 100%;
+    padding-left: 0px;
+}
+.li-element{
+    min-width: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #455d7a;
+    border-radius: 12px;
+    color: white;
+    padding-left: 8px;
+    padding-right: 8px;
+    height: 40px;
+    margin-bottom: 8px;
+}
+@media screen and (max-width:768px){
+    .li-element{
+        min-width: 200px;
+        font-size: 12px;
+        
+    }
+}
+.icons-container{
+    width: 56px;
+    display: flex;
+    justify-content: space-between;
+}
+@media screen and (max-width:768px){
+    .icons-container{
+        width: 28px;
+        
+    }
+}
+.cross-icon{
+    color: red;
+}
